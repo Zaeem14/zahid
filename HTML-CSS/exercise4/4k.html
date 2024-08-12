@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Margin and padding together</title>
+    <style>
+      #one, #two, #three {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 5px 12px;
+        margin: 4px;
+        cursor: pointer;
+        transition: padding 0.15s, margin 0.15s;
+      }
+      #one:hover, #two:hover, #three:hover {
+        padding: 5px 15px; 
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="one">one</button>
+    <button id="two">two</button>
+    <button id="three">three</button>
+  </body>
+</html>

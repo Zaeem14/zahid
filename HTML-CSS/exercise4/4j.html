@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3d shadow</title>
+    <style>
+      #shadow {
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding-top: 8px; 
+        padding-bottom: 8px;
+        padding-right: 16px;
+        padding-left: 16px;
+        cursor: pointer;
+      }
+
+      #shadow:active {
+        margin-top: -3px;
+        margin-left: -3px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+      }
+        
+    </style>
+  </head>
+  <body>
+    <button id="shadow">Shadow</button>
+  </body>
+</html>
